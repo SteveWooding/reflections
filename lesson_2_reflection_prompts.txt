@@ -14,8 +14,15 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    See what files are there by doing a git status command. Check to see exactly
+    what code is changing with the git diff --staged command and make sure it's
+    only one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+    When you want to try out adding an experimental feature to you code or create
+    a different version for some purpose, e.g. a port for a different OS.
 
 How do the diagrams help you visualize the branch structure?
 
