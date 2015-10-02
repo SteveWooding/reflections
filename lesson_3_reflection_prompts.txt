@@ -39,3 +39,13 @@ locally?
     what you are doing locally. When you are ready, you can then merge you changes
     locally, resolve any conflicts and then push you code up to the remote
     repository to get back in sync.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+    You could share code via email or upload it to a server. Then some maintainer
+    could manually merge it with the definitive version of the code. It would take
+    more management this way, as every change would go through the maintainer, rather
+    than any conflicts being sorted by the people who wrote the code. In some cases
+    though, a 3rd opinion may be needed even when using Git, but this would be less
+    often.
