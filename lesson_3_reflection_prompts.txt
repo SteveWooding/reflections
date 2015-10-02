@@ -11,3 +11,24 @@ automatically stay up-to-date with your remote repository?
     with resolving a conflict at a time when you just want to get on with your work.
     Manually updating allows you to prepare for these issues and be in the right
     frame of mind to deal with them.
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+    Forking is copying a remote repository (created by someone else) to your remote
+    account. It then behaves like one of your remote repositories, but it has a link
+    back to the original repository. It allows you to make tracked changes to
+    somebody else's code when you don't have permission to change it.
+    
+    Cloning is when you copy a repository from a remote location down on to your
+    local machine. The repository could belong to you or someone you are working
+    with closely. You can make changes locally and push them directly to the
+    remote repository.
+    
+    Branching is used when you want to add a new experimental feature to your code
+    and you don't want to affect the stable version of the code for the time being.
+    Once the experiment on the branch proves successful, the branch can be merged
+    back into the stable version and the branch deleted. When you do the merge,
+    there maybe some conflicts to resolve manually between the branches, though
+    git will do its best to merge them automatically.
+    
