@@ -31,4 +31,11 @@ instead of another?
     back into the stable version and the branch deleted. When you do the merge,
     there maybe some conflicts to resolve manually between the branches, though
     git will do its best to merge them automatically.
-    
+
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+    So you can see what changes others have made to the code, which may impact
+    what you are doing locally. When you are ready, you can then merge you changes
+    locally, resolve any conflicts and then push you code up to the remote
+    repository to get back in sync.
