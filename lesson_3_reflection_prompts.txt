@@ -49,3 +49,15 @@ and what would be harder?
     than any conflicts being sorted by the people who wrote the code. In some cases
     though, a 3rd opinion may be needed even when using Git, but this would be less
     often.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+    A branch should be used when making a large change, like adding a new feature
+    to the code. It is also good when you are working on a project with others, to
+    help keep the master branch of the project definitive.
+    
+    You can make updates to the master branch if they are small and you are working
+    on your own. It would be too much of an overhead to create a branch, make a
+    small change and merge it back into the master branch. And sending a pull
+    request to yourself maybe a bit much too.
